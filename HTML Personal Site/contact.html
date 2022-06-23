@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>My Contact Details:</h1>
+    <p><strong>Email: </strong>abc123@gmail.com</p>
+    <p><strong>Address: </strong>1352 Tango Way, Santa Clara, CA</p>
+    <p><strong>Cell: </strong>(911) 246-5251</p>
+    <hr>
+    <form action="mailto:dduong74@hotmail.com" method="post" enctype="text/plain"> <!--post method will get all values from the input tags-->
+    <!--<form class="" action="index.html" method="post">--><!--one you hit submit, it takes you back to index.html due to the value of action attribute-->
+    <label>Your Name:</label>   <!--name/label of your input box -->
+    <input type="text" name="yourName" value=""> <!--input box -->
+    <br>
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail" value="">
+    <br>
+    <label>Your Message:</label><br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+    <input type="submit" name=""> <!--Submit button also falls under the input of a form tag-->
+    <br>
+    <br>
+    <br>
+    <label>Do you want to sign up to the email list?</label>
+    <input type="checkbox" name="checkBox" value=""> <!--checkbox-->
+    <br><input type="file" name="fileUpload" value=""> <!--allows user to load/upload files -->
+    <br><input type="date" name="calendarDate" value=""> <!--allows user to select calendar dates -->
+    <br><input type="radio" name="radioButton" value=""> <!--radio button -->
+    <br><input type="range" name="volumeSlider" value=""> <!--slider or volume slider? -->
+    </form>
+  </body>
+</html>
